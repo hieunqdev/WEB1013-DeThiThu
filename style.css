@@ -1,0 +1,141 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1000px;
+    margin: auto;
+}
+
+/* header */
+header{
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* nav */
+nav{
+    background-color: rgb(25, 25, 83);
+    /* Căn đều 2 bên */
+    display: flex;
+    justify-content: space-between;
+    /* Căn giữa theo chiều dọc */
+    align-items: center;
+}
+
+nav>ul{
+    /* bỏ dấu chấm trong thẻ ul */
+    list-style: none; 
+    margin-left: 30px;
+}
+
+nav>ul>li{
+    /* các items sẽ được sắp xếp trên cùng 1 dòng */
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav>ul>li>a{
+    /* bỏ gạch chân thẻ a */
+    text-decoration: none;
+    color: white;
+}
+
+.search>form{
+    margin-right: 40px;
+}
+
+.search>form>input{
+    margin-right: 10px;
+}
+
+.search>form>button{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    padding: 3px 20px;
+}
+
+/* banner */
+.banner{
+    margin-top: 5px 0;
+}
+
+.banner>p>img{
+    width: 100%;
+}
+
+/* article */
+article{
+    margin-top: 20px;
+}
+
+.khuyen-mai{
+    margin-top: 20px;
+}
+
+.khuyen-mai>a{
+    color: rgb(25, 25, 83);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.khuyen-mai>a:hover{
+    color: red;
+}
+
+.column{
+    margin-top: 30px;
+    /* Căn đều 2 bên */
+    display: flex;
+    justify-content: space-between;
+}
+
+.san-pham{
+    border: 1px solid black;
+    padding: 30px 15px;
+}
+
+.ten{
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.ten>a{
+    text-decoration: none;
+    color: black;
+}
+
+.ten>a:hover{
+    color: red;
+}
+
+.gia>span{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gia>del{
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(25, 25, 83);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+nav>ul>li>a:hover{
+    color: red;
+}
+
+.san-pham>img:hover{
+    border: 1px solid #000;
+}
